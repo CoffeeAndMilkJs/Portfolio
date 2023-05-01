@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <title>Portfolio V2</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <section class="hero">
+        <div class="main_width">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-c"></i>
+                </div>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li class="btn"><a href="#">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="preview_main">
+                <div class="about_me">
+                    <div class="abt_avatar">
+                        <img src="https://avatars.githubusercontent.com/u/60452045?v=4" alt="">
+                    </div>
+                    <div class="abt_text">
+                        <h2>Hi!, How are you?</h2>
+                        <h1>I'm <span id="input"></span></h1>
+                        <p>Hi, I am Coffee.js This is my portfolio, currently I have knowledge about HTML and CSS, I am learning Javascript to expand my knowledge about Web Development. I am curious and moderately creative. My passion is UI Design.</p>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#input", {
+            strings:["Web Developer.","UI Designer.","Coffee.js.","Photographer.","Anybody."],
+            typeSpeed: 80,
+            backSpeep:60,
+            loop:true,
+        });
+
+    </script>
+</body>
+</html>
